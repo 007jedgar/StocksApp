@@ -11,6 +11,6 @@
 @interface Stock : NSObject
 
 @property (nonatomic, strong) NSString *stockTitle;
-
+@property (nonatomic, assign) int price;
 
 @end

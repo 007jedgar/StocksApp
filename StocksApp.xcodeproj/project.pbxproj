@@ -14,8 +14,11 @@
 		AB039B001E5B59B8001C8327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB039AFF1E5B59B8001C8327 /* Assets.xcassets */; };
 		AB039B031E5B59B8001C8327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB039B011E5B59B8001C8327 /* LaunchScreen.storyboard */; };
 		AB039B0D1E5B6047001C8327 /* SelectedStockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB039B0C1E5B6047001C8327 /* SelectedStockViewController.m */; };
-		AB039B101E5B614E001C8327 /* StocksTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB039B0F1E5B614E001C8327 /* StocksTableTableViewController.m */; };
 		AB039B131E5B6213001C8327 /* Stock.m in Sources */ = {isa = PBXBuildFile; fileRef = AB039B121E5B6213001C8327 /* Stock.m */; };
+		AB0E26CF1E5C94E500AE73E3 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0E26CE1E5C94E500AE73E3 /* Storyboard.storyboard */; };
+		AB5D660B1E5B787A003B9567 /* StockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5D660A1E5B787A003B9567 /* StockViewController.m */; };
+		AB5D660E1E5B7C11003B9567 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5D660D1E5B7C11003B9567 /* ContainerViewController.m */; };
+		ABB892BA1E5B9B18005FCB05 /* AddStockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB892B91E5B9B18005FCB05 /* AddStockViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +34,15 @@
 		AB039B041E5B59B8001C8327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB039B0B1E5B6047001C8327 /* SelectedStockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedStockViewController.h; sourceTree = "<group>"; };
 		AB039B0C1E5B6047001C8327 /* SelectedStockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedStockViewController.m; sourceTree = "<group>"; };
-		AB039B0E1E5B614E001C8327 /* StocksTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StocksTableTableViewController.h; sourceTree = "<group>"; };
-		AB039B0F1E5B614E001C8327 /* StocksTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StocksTableTableViewController.m; sourceTree = "<group>"; };
 		AB039B111E5B6213001C8327 /* Stock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stock.h; sourceTree = "<group>"; };
 		AB039B121E5B6213001C8327 /* Stock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stock.m; sourceTree = "<group>"; };
+		AB0E26CE1E5C94E500AE73E3 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		AB5D66091E5B787A003B9567 /* StockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockViewController.h; sourceTree = "<group>"; };
+		AB5D660A1E5B787A003B9567 /* StockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockViewController.m; sourceTree = "<group>"; };
+		AB5D660C1E5B7C11003B9567 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		AB5D660D1E5B7C11003B9567 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		ABB892B81E5B9B18005FCB05 /* AddStockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddStockViewController.h; sourceTree = "<group>"; };
+		ABB892B91E5B9B18005FCB05 /* AddStockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddStockViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,12 +100,17 @@
 		AB039B0A1E5B600A001C8327 /* Stock Classes */ = {
 			isa = PBXGroup;
 			children = (
+				AB5D660C1E5B7C11003B9567 /* ContainerViewController.h */,
+				AB5D660D1E5B7C11003B9567 /* ContainerViewController.m */,
 				AB039B0B1E5B6047001C8327 /* SelectedStockViewController.h */,
 				AB039B0C1E5B6047001C8327 /* SelectedStockViewController.m */,
-				AB039B0E1E5B614E001C8327 /* StocksTableTableViewController.h */,
-				AB039B0F1E5B614E001C8327 /* StocksTableTableViewController.m */,
+				AB5D66091E5B787A003B9567 /* StockViewController.h */,
+				AB5D660A1E5B787A003B9567 /* StockViewController.m */,
 				AB039B111E5B6213001C8327 /* Stock.h */,
 				AB039B121E5B6213001C8327 /* Stock.m */,
+				ABB892B81E5B9B18005FCB05 /* AddStockViewController.h */,
+				ABB892B91E5B9B18005FCB05 /* AddStockViewController.m */,
+				AB0E26CE1E5C94E500AE73E3 /* Storyboard.storyboard */,
 			);
 			name = "Stock Classes";
 			sourceTree = "<group>";
@@ -162,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB039B031E5B59B8001C8327 /* LaunchScreen.storyboard in Resources */,
+				AB0E26CF1E5C94E500AE73E3 /* Storyboard.storyboard in Resources */,
 				AB039B001E5B59B8001C8327 /* Assets.xcassets in Resources */,
 				AB039AFE1E5B59B8001C8327 /* Main.storyboard in Resources */,
 			);
@@ -176,10 +190,12 @@
 			files = (
 				AB039B131E5B6213001C8327 /* Stock.m in Sources */,
 				AB039B0D1E5B6047001C8327 /* SelectedStockViewController.m in Sources */,
+				AB5D660E1E5B7C11003B9567 /* ContainerViewController.m in Sources */,
 				AB039AFB1E5B59B8001C8327 /* ViewController.m in Sources */,
-				AB039B101E5B614E001C8327 /* StocksTableTableViewController.m in Sources */,
+				AB5D660B1E5B787A003B9567 /* StockViewController.m in Sources */,
 				AB039AF81E5B59B8001C8327 /* AppDelegate.m in Sources */,
 				AB039AF51E5B59B8001C8327 /* main.m in Sources */,
+				ABB892BA1E5B9B18005FCB05 /* AddStockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +354,7 @@
 				AB039B091E5B59B8001C8327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

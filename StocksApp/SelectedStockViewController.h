@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StockViewController.h"
 
-@interface SelectedStockViewController : UIViewController
-
+@interface SelectedStockViewController : UIViewController<DisplayStockDelegate>
+-(void) stockSelected:(NSString *) stock;
 @end
