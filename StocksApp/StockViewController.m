@@ -19,10 +19,27 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     Stock *stock = [[Stock alloc]init];
-    stock.stockTitle = @"AAPL";
+    stock.stockTitle = @"NASDAQ";
+    
+    Stock *stock1 = [[Stock alloc]init];
+    stock1.stockTitle = @"APPLE";
+    
+    Stock *stock2 = [[Stock alloc]init];
+    stock2.stockTitle = @"GOOGLE";
+    
+    Stock *stock3 = [[Stock alloc]init];
+    stock3.stockTitle = @"TWITTER";
+    
+    Stock *stock4 = [[Stock alloc]init];
+    stock4.stockTitle = @"SQUARE";
     
     self.stocks = [[NSMutableArray alloc]init];
     [self.stocks addObject:stock];
+    [self.stocks addObject:stock1];
+    [self.stocks addObject:stock2];
+    [self.stocks addObject:stock3];
+    [self.stocks addObject:stock4];
+
     [self.tableView reloadData];
     
 }
